@@ -1,0 +1,78 @@
+body {
+    overflow-x: hidden;
+
+
+}
+
+nav ul {
+    font-family: cursive;
+    padding: 0 20px;
+    list-style: none;
+    text-decoration-color: yellow;
+    display: inline-table;
+    width: 100%;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li:hover {
+    background: seashell;
+}
+
+nav ul li:hover a {
+    color: #000;
+}
+
+nav ul li a {
+    font-family: cursive;
+    display: block;
+    padding: 25px;
+    text-decoration-color: yellow;
+
+}
+
+
+.content {
+    background-color: whitesmoke;
+    min-height: 30%;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 1%;
+    padding-bottom: 5%;
+    text-align: left;
+
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.938);
+    color: gray;
+    padding-top: 5%;
+    padding-bottom: 10%;
+
+}
+
+section{
+    min-height: 60px;
+}
+
+.portfolio{
+    background-color: rgba(255, 255, 255, 0.938);
+    min-height: 30%;
+    padding-top: -1%;
+    padding-left: 5%;
+    padding-right: 1%;
+    padding-bottom: -1%;
+   
+}
+
+.skill{
+    background-color: whitesmoke;
+    min-height: 30%;
+    padding-top: -1%;
+    padding-left: 5%;
+    padding-right: 1%;
+    padding-bottom: -1%;
+    text-align: left;
+}
